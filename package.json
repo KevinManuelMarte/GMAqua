@@ -1,0 +1,33 @@
+{
+  "name": "gmaqua",
+  "version": "1.0.0",
+  "description": "Bot creado para buscar informacion de usuarios y servidores en especificos de Ark Survival Ascended",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "register": "nodemon src/deploy-commands.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinManuelMarte/GMAqua.git"
+  },
+  "keywords": [
+    "Discord",
+    "bot"
+  ],
+  "author": "Kevin Marte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinManuelMarte/GMAqua/issues"
+  },
+  "homepage": "https://github.com/KevinManuelMarte/GMAqua#readme",
+  "devDependencies": {
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
